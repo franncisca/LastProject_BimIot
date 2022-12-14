@@ -1,0 +1,4 @@
+doc = FreeCAD.newDocument("test")
+box = doc.addObject("Part::Box", "myBox")
+doc.recompute()
+box.Height = 5
